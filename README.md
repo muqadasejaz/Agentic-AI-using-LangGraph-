@@ -53,6 +53,29 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 - Feedback-driven improvements  
 - Self-correcting agents  
 
+### 09: Persistence in LangGraph
+- Saving and restoring workflow state  
+- Checkpointing execution progress  
+- Resuming workflows after failure or interruption  
+- Long-running agent support (multi-step processes over time)  
+- Real-world use cases (HR pipelines, approvals, long research tasks)  
+
+### 10: Streaming in LangGraph
+- Real-time output generation during execution  
+- Step-by-step response streaming to users  
+- Improving user experience in agent applications  
+- Debugging and monitoring intermediate states  
+- Use cases: chat agents, live assistants, interactive workflows  
+
+### 11: Observability in LangGraph
+- Tracking execution of nodes and edges  
+- Monitoring state transitions  
+- Debugging complex workflows  
+- Logging and tracing agent decisions  
+- Integration with observability tools for production systems  
+- Essential for enterprise-grade AI agents
+
+  
 ---
 
 ## 🚀 Key Learning Outcomes
