@@ -73,9 +73,36 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 - Debugging complex workflows  
 - Logging and tracing agent decisions  
 - Integration with observability tools for production systems  
-- Essential for enterprise-grade AI agents
+- Essential for enterprise-grade AI agents  
 
-  
+### 12: Tools in LangGraph
+- Tool calling and external integrations  
+- Using APIs, databases, and Python functions  
+- Tool-enabled AI agents  
+- Dynamic decision-making using tools  
+- Real-world examples of tool-augmented agents  
+
+### 13: MCP Client using LangGraph
+- Introduction to Model Context Protocol (MCP)  
+- Connecting AI agents with external MCP servers  
+- Accessing tools, resources, and prompts dynamically  
+- Building interoperable AI systems using MCP clients  
+- Real-world integrations and workflows  
+
+### 14: Retrieval-Augmented Generation (RAG)
+- Introduction to RAG architecture  
+- Combining retrieval systems with LLMs  
+- Vector databases and embeddings  
+- Context-aware question answering  
+- Building document-aware AI agents  
+
+### 15: Human-in-the-Loop (HITL)
+- Human approval and intervention workflows  
+- Interrupting and resuming execution  
+- AI-human collaborative systems  
+- Risk control and safety mechanisms  
+- Enterprise approval pipelines and review systems  
+
 ---
 
 ## 🚀 Key Learning Outcomes
@@ -84,6 +111,8 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 - Learn how to design **AI systems with memory and decision-making**  
 - Build **workflow-based AI agents using LangGraph**  
 - Implement **sequential, parallel, conditional, and iterative flows**  
+- Gain production-level understanding with **persistence, streaming, and observability**  
+- Learn **tool integration, MCP, RAG, and HITL workflows**  
 - Apply concepts to **real-world automation and intelligent systems**  
 
 ---
@@ -95,6 +124,9 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 - LangGraph  
 - Large Language Models (LLMs)  
 - APIs & Tool Integrations  
+- Vector Databases  
+- MCP (Model Context Protocol)  
+- LangSmith  
 
 ---
 
@@ -102,6 +134,8 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 
 This repository provides a structured approach to learning **Agentic AI**, combining  
 **theory, workflows, and system design** to build intelligent, autonomous agents.
+
+It goes beyond basic LLM usage by covering **production-level concepts like persistence, streaming, observability, RAG, MCP, and HITL**, making it suitable for real-world AI system development.
 
 ---
 
