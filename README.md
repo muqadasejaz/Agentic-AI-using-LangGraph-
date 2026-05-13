@@ -7,7 +7,7 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 
 ---
 
-## 🗂️ Table of Contents
+# 🗂️ Table of Contents
 
 ### 01: Generative AI vs Agentic AI
 - What is Generative AI?  
@@ -103,9 +103,62 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 - Risk control and safety mechanisms  
 - Enterprise approval pipelines and review systems  
 
+### 16: SubGraphs in LangGraph
+- Modular workflow architecture  
+- Breaking large workflows into reusable components  
+- Nested graphs and graph composition  
+- Multi-agent coordination using subgraphs  
+- Building scalable enterprise AI systems
+
+ #### Types of SubGraphs
+- Shared State SubGraphs  
+  - Parent graph and subgraph share the same state  
+  - Useful for tightly connected workflows  
+  - Enables direct state updates across components  
+
+- Independent State SubGraphs  
+  - Subgraph maintains its own isolated state  
+  - Parent and subgraph communicate through input/output mappings  
+  - Useful for modular and reusable workflow components
+
+### 17: Memory in LLM Applications
+- Importance of memory in AI agents  
+- Stateless vs stateful AI systems  
+- Context retention in workflows  
+- Personalized and adaptive AI agents  
+- Memory-driven reasoning systems  
+
+### 18: Short-Term Memory
+- Conversation context handling  
+- Session-based memory  
+- Context window management  
+- Temporary state tracking during execution  
+- Chat history and active workflow memory  
+
+### 19: Long-Term Memory
+- Persistent memory storage  
+- User preference retention  
+- Cross-session continuity  
+- Knowledge accumulation over time  
+- Long-term personalization in AI systems  
+
+### 20: Advanced RAG: Corrective RAG (CRAG)
+- Introduction to Corrective RAG architecture  
+- Detecting retrieval quality issues  
+- Correcting irrelevant or weak retrieval results  
+- Improving factual accuracy and reliability  
+- Self-correction pipelines for AI agents  
+
+### 21: Self-RAG
+- Self-reflective retrieval systems  
+- AI agents deciding when retrieval is needed  
+- Reflection tokens and reasoning loops  
+- Adaptive retrieval and generation workflows  
+- Building autonomous self-improving RAG agents  
+
 ---
 
-## 🚀 Key Learning Outcomes
+# 🚀 Key Learning Outcomes
 
 - Understand the shift from **Generative AI → Agentic AI**  
 - Learn how to design **AI systems with memory and decision-making**  
@@ -113,11 +166,13 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 - Implement **sequential, parallel, conditional, and iterative flows**  
 - Gain production-level understanding with **persistence, streaming, and observability**  
 - Learn **tool integration, MCP, RAG, and HITL workflows**  
+- Understand **memory architectures in AI systems**  
+- Explore **advanced retrieval systems like CRAG and Self-RAG**  
 - Apply concepts to **real-world automation and intelligent systems**  
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 - Python  
 - LangChain  
@@ -127,15 +182,20 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 - Vector Databases  
 - MCP (Model Context Protocol)  
 - LangSmith  
+- FAISS / ChromaDB  
+- OpenAI APIs  
+- PostgreSQL / Redis  
 
 ---
 
-## 📌 Conclusion
+# 📌 Conclusion
 
 This repository provides a structured approach to learning **Agentic AI**, combining  
 **theory, workflows, and system design** to build intelligent, autonomous agents.
 
-It goes beyond basic LLM usage by covering **production-level concepts like persistence, streaming, observability, RAG, MCP, and HITL**, making it suitable for real-world AI system development.
+It goes beyond basic LLM usage by covering **production-level concepts like persistence, streaming, observability, RAG, MCP, HITL, memory systems, and advanced retrieval architectures**, making it suitable for real-world AI system development.
+
+The repository is designed to help learners transition from simple LLM applications to building **scalable, production-ready AI agents and multi-agent systems**.
 
 ---
 
