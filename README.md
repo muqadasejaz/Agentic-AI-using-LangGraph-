@@ -172,6 +172,11 @@ The repository emphasizes both **conceptual clarity and practical understanding*
 
 ---
 
+# 🗂️ Projects
+
+# RAG Chatbot
+
+
 # 🛠️ Tools & Technologies
 
 - Python  
